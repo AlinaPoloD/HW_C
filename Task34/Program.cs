@@ -6,12 +6,12 @@
 int[] GetArray(int length, int minValue, int maxValue)
 {
     int[] array = new int[length];
-	for (int i = 0; i < array.Length; i++)
-	{
-		array[i] = new Random().Next(minValue, maxValue + 1);
-	}
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(minValue, maxValue + 1);
+    }
 
-	return array;
+    return array;
 }
 
 void PrintArray(int[] array)
@@ -22,7 +22,7 @@ void PrintArray(int[] array)
     }
 }
 
-int CountEven(int[] array) 
+int CountEven(int[] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
